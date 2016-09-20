@@ -6,6 +6,7 @@ body {
 	/*color: #ffffff;*/
 	font-size: 12px;
 	background:#bfbfbf;
+	font-family: 'Yatra One', cursive;
 }
 
 
@@ -72,7 +73,7 @@ a {
 	min-height: 50px;
 	padding:30px 0;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
+	/*font-family: 'Open Sans', sans-serif;*/
 	font-weight: 300;
 }
 
@@ -88,6 +89,9 @@ a {
 	z-index: 1000;
 	width: 100%;
 	background: #0977bc;
+	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .subMenu .inner {
@@ -113,6 +117,7 @@ a {
 .subMenu a:hover {
 	background: #1783c7;
 	/*background: #ffffff;*/
+	//position: fixed;
 }
 
 .active {
